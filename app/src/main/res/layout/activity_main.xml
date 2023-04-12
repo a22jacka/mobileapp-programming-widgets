@@ -90,14 +90,14 @@
         app:layout_constraintEnd_toEndOf="parent"/>
 
     <androidx.cardview.widget.CardView
-        android:id="@+id/Card1"
+        android:id="@+id/card1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@color/lightBlue"
         android:layout_margin="30dp"
         android:layout_marginTop="20dp"
         app:cardElevation="5dp"
-        app:layout_constraintBottom_toTopOf="Card1"
+        app:layout_constraintBottom_toTopOf="@id/card2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/underButtons_guideline">
@@ -127,7 +127,7 @@
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
-        android:id="@+id/Card2"
+        android:id="@+id/card2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@color/lightBlue"
@@ -136,7 +136,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/Card1">
+        app:layout_constraintTop_toBottomOf="@id/card1">
 
         <TextView
             android:layout_width="wrap_content"
