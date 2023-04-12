@@ -1,5 +1,11 @@
 <resources>
     <string name="app_name">Widgets App</string>
+    <string name="review_title">Real Honest Review</string>
+    <string name="review_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam non venenatis mauris. Integer at tempor enim. Donec molestie, urna at vulputate mattis.</string>
     <color name="lightBlue">#0083FF</color>
     <color name="magenta">#AA0054</color>
+    <color name="grey">#C9C9C9</color>
+    <color name="red">#FF0000</color>
+    <color name="green">#4CAF50</color>
+    <color name="yellow">#FFEB3B</color>
 </resources>
