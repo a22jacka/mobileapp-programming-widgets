@@ -40,7 +40,7 @@
     <ImageView
         android:id="@+id/bigImage"
         android:layout_width="match_parent"
-        android:layout_height="222dp"
+        android:layout_height="wrap_content"
         android:background="@color/magenta"
         android:contentDescription="Android logo on magenta-like background"
         app:layout_constraintBottom_toTopOf="@+id/underImage_guideline"
