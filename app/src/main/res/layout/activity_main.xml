@@ -11,7 +11,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/app_name"
-        android:textScale="20sp"
+        android:textSize="30sp"
         app:layout_constraintBottom_toTopOf="@id/title_guideline"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -36,48 +36,50 @@
 
     <ImageView
         android:id="@+id/bigImage"
-        android:layout_width="274dp"
-        android:layout_height="172dp"
+        android:layout_width="match_parent"
+        android:layout_height="222dp"
+        android:background="@color/magenta"
         app:layout_constraintBottom_toTopOf="@+id/underImage_guideline"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/title_guideline"
-        tools:srcCompat="@tools:sample/backgrounds/scenic" />
+        app:layout_constraintVertical_bias="0.507"
+        app:srcCompat="@drawable/ic_launcher_foreground" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/underImage_guideline"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_begin="270dp" />
+        app:layout_constraintGuide_begin="303dp" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/underButtons_guideline"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_begin="355dp" />
+        app:layout_constraintGuide_begin="365dp" />
 
     <Button
         android:id="@+id/buttonLeft"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Left"
+        android:background="@color/lightBlue"
         app:layout_constraintBottom_toTopOf="@+id/underButtons_guideline"
         app:layout_constraintTop_toTopOf="@+id/underImage_guideline"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toStartOf="@id/buttonRight"/>
-
 
     <Button
         android:id="@+id/buttonRight"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Right"
+        android:background="@color/lightBlue"
         app:layout_constraintBottom_toTopOf="@+id/underButtons_guideline"
         app:layout_constraintTop_toTopOf="@+id/underImage_guideline"
         app:layout_constraintStart_toEndOf="@id/buttonLeft"
         app:layout_constraintEnd_toEndOf="parent"/>
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>

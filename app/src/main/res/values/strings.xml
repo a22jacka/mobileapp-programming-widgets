@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Widgets</string>
+    <color name="lightBlue">#0083FF</color>
+    <color name="magenta">#AA0054</color>
 </resources>
